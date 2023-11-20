@@ -1,1 +1,1 @@
-# Modern-JavaScript-Coursee
+# Modern-JavaScript-Course
