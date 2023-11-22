@@ -1,14 +1,15 @@
-// This is single line comment
-// Always use const if the value should not be changed
-// Always use const if the type should not be changed (Arrays and Objects)
-const score = 100;
+// Strings
+let firstName = "Martin";
+let lastName = "Markov";
 
-// Only use let if you can't use const
-let updatedScore = 101;
+// string concatenation
+let fullName = firstName + " " + lastName; 
+console.log(fullName); // Martin Markov
+// getting characters
+console.log(fullName[1]); // a
 
-/* 
-This is multi line comment 
-Only use var if you MUST support old browsers.
-*/
-var name = "Martin";
+// string property length 
+console.log(fullName.length); // 13
 
+// string methods
+console.log(fullName.toUpperCase()); // MARTIN MARKOV
