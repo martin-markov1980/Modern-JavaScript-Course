@@ -1,10 +1,40 @@
-// Common string methods
-let email = "martin.inbox@gmail.com";
+// numbers
 
-console.log(email.lastIndexOf("a")); // 15
+let radius = 10;
+let pi = 3.14;
 
-console.log(email.slice(0, 6)); // martin
+// console.log(radius, pi);
 
-console.log(email.substr(6, 6)); // .inbox
+// math operators - +, -, *, /, **, %
 
-console.log(email.replace("@", "7")); // martin.inbox7gmail.com
+// console.log(10 / 2);
+// let result = radius % 3;
+// let result = pi * radius**2;
+
+// order of operation - B I D M A S
+
+// let result = 5 * (10 - 3)**2;
+
+// console.log(result);
+
+// shorthands
+let likes = 10;
+
+// likes = likes + 1;
+// likes++;
+
+// likes = likes + 10;
+// likes += 10;
+
+// likes *= 2;
+// likes /= 2;
+
+// console.log(likes);
+
+// NaN - not a number
+
+// console.log(5 / 'hello');
+// console.log(5 * 'hello');
+
+let result = 'the blog has ' + likes + ' likes.';
+console.log(result);
