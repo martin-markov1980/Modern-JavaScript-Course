@@ -1,15 +1,10 @@
-// Strings
-let firstName = "Martin";
-let lastName = "Markov";
+// Common string methods
+let email = "martin.inbox@gmail.com";
 
-// string concatenation
-let fullName = firstName + " " + lastName; 
-console.log(fullName); // Martin Markov
-// getting characters
-console.log(fullName[1]); // a
+console.log(email.lastIndexOf("a")); // 15
 
-// string property length 
-console.log(fullName.length); // 13
+console.log(email.slice(0, 6)); // martin
 
-// string methods
-console.log(fullName.toUpperCase()); // MARTIN MARKOV
+console.log(email.substr(6, 6)); // .inbox
+
+console.log(email.replace("@", "7")); // martin.inbox7gmail.com
