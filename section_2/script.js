@@ -1,6 +1,30 @@
-// null & undefined
-let age;
-console.log(age, age + 3, `the age is ${age}`); // undefined NaN the age is undefined
+// booleans & comparisons
+// console.log(true, false, 'true', 'false');
 
-age = null;
-console.log(age, age + 3, `the age is ${age}`); // null 3 the age is null
+// methods can return booleans
+// let email = 'luigi@thenetninja.co.uk';
+// let names = ['mario', 'luigi', 'toad'];
+
+// let result = email.includes('@');
+// let result = names.includes('luigi');
+
+// console.log(result);
+
+// comparison operators
+let age = 25;
+
+console.log(age == 25);
+console.log(age == 30);
+console.log(age != 30);
+console.log(age > 20);
+console.log(age < 20);
+console.log(age <= 25);
+console.log(age >= 25);
+
+let name = 'shaun';
+
+console.log(name == 'shaun');
+console.log(name == 'Shaun');
+console.log(name > 'crystal');
+console.log(name > 'Shaun');
+console.log(name > 'Crystal');
