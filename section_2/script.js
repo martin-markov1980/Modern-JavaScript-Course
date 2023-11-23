@@ -1,15 +1,15 @@
-// Strings
-let firstName = "Martin";
-let lastName = "Markov";
+// type conversion
+// let score = '100';
 
-// string concatenation
-let fullName = firstName + " " + lastName; 
-console.log(fullName); // Martin Markov
-// getting characters
-console.log(fullName[1]); // a
+// score = Number(score);
+// console.log(score + 1);
+// console.log(typeof score);
 
-// string property length 
-console.log(fullName.length); // 13
+// let result = Number('hello');
+// let result = String(50);
+// let result = Boolean(100);
+// let result = Boolean(0);
+// let result = Boolean('0');
+let result = Boolean('');
 
-// string methods
-console.log(fullName.toUpperCase()); // MARTIN MARKOV
+console.log(result, typeof result);
